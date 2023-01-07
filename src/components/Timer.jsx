@@ -45,6 +45,7 @@ const Timer = () => {
         fontSize={{ base: "1rem", md: "2rem" }}
         fontFamily={"sans-serif"}
         mt={"3rem"}
+        color={"white"}
       >
         <Box
           display={"flex"}
@@ -54,7 +55,6 @@ const Timer = () => {
           border={"2px solid white"}
           justifyContent={"center"}
           textAlign={"center"}
-          fontColor={"white}
         >
           <Text> {timerDays}</Text>
           <Text>Days</Text>
@@ -67,7 +67,6 @@ const Timer = () => {
           border={"2px solid white"}
           justifyContent={"center"}
           textAlign={"center"}
-          fontColor={"white}
         >
           <Text>{timerHours}</Text>
           <Text>Hours</Text>
@@ -81,7 +80,6 @@ const Timer = () => {
           border={"2px solid white"}
           justifyContent={"center"}
           textAlign={"center"}
-          fontColor={"white}
         >
           <Text>{timerMinutes}</Text>
           <Text>Minutes</Text>
@@ -94,7 +92,6 @@ const Timer = () => {
           border={"2px solid white"}
           justifyContent={"center"}
           textAlign={"center"}
-          fontColor={"white}
         >
           <Text>{timerSeconds}</Text>
           <Text>Seconds </Text>
